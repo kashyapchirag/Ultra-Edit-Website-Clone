@@ -1,0 +1,149 @@
+body{
+    font-family: 'Segoe UI';
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.upper{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 72.4px;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+.upper h1{
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+.upper h3{
+    font-size: 24px;
+    font-weight: 500;
+    width: 960px;
+    
+    
+}
+
+.upper div{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+
+}
+
+.upper div a{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.upper div a:link,.upper div a:active,.upper div a:visited,.upper div a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.upper div:hover{
+    background-color: #0aa2ba;
+}
+
+.box{
+    padding: 4px;
+    background-color: #f9f9f9;
+    width: 302px;
+    text-align: center;
+    border-radius: 5px
+}
+
+.button{
+    background-color: #5cb85c;
+    width: 126.4px;
+    height: 32px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.button a:link,.button a:active,.button a:visited,.button abutton{
+    color: white;
+    text-decoration: none;
+}
+
+.box h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hash{
+    font-size: 8px;
+}
+
+.line{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    transform: translateX(-130px);
+}
+
+.lower{
+    padding-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,302px);
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 768px){
+    .lower{
+    padding-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 302px;
+    justify-content: center;
+    gap: 30px;
+    }
+
+}
+
